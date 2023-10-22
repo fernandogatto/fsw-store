@@ -1,5 +1,6 @@
 "use client";
 
+import Categories from "./components/categories";
 import PromoBanner from "./components/promo-banner";
 
 export default function Home() {
@@ -9,6 +10,10 @@ export default function Home() {
         src="/banner-home-01.png"
         alt="Até 55% de desconto esse mês!"
       />
+
+      <div className="px-5">
+        <Categories />
+      </div>
     </div>
   );
 }
